@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FFA500; /* Orange header background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333; /* Dark navigation background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333; /* Dark footer background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style specific sections */
+h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+}
+
+a {
+    color: #FFA500; /* Orange links */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
